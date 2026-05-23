@@ -1,0 +1,48 @@
+body {
+  background-color: #0d0d0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.value {
+  background-color: #1e1e26;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 16px 24px;
+  border-radius: 8px;
+  min-width: 80px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.label {
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.separator {
+  color: #555555;
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
